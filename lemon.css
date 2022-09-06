@@ -1,0 +1,219 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Urbanist', sans-serif;
+    color: #1C2436;
+}
+
+
+ body{
+    display: flex;
+    overflow-x: hidden;
+    width: 100vw;
+    flex-direction: column;
+   
+    
+
+ }
+  .banner{
+    background-image: cover;
+  }
+ /*Nav section*/
+  .nav{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(231, 228, 228);
+    padding: 20px 30px 20px 110px;
+    align-items: center;
+  }
+   .links{
+    display: flex;  
+    gap: 40px;
+    
+   }
+   .links a{
+    color: #000;
+   }
+
+   .nav button{
+    background: transparent;
+    padding: 12px 23px;
+    border: 1px solid rgb(212, 208, 208);
+   }
+
+   /*meet-lemon*/
+    .meet-lemon{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+        padding: 70px ;
+    }
+  .meet-lemon h5{
+  font-size: 18px;
+ }
+    .meet-lemon h1{
+        font-size: 56px;
+        letter-spacing: 3px;
+    }
+      small{
+        font-size:20px;
+        text-align: center;
+
+ }
+
+    /*borovse the collection*/
+
+    .brovse-the-collection{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .text{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px 0;
+        gap: 200px;
+        border-bottom: 1px solid rgb(231, 228, 228);
+    }
+
+    .text h2{
+        font-size: 44px;
+    }
+
+    .layouts{
+        display: flex;
+        gap: 30px;
+        padding: 40px 0;
+    }
+
+    .Layout, .Sections, .Components{
+        display: flex;
+        width: 320px;
+        height: 300px;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        padding: 50px 15px 15px 0;
+        border:1px solid rgb(231, 228, 228);;
+    }
+     .layouts h5{
+        font-size: 22px;
+     }
+    .svg{
+        padding: 18px;
+        
+    }
+     .layouts small{
+        font-size: 16px;
+        font-weight: bold;
+     }
+
+
+
+
+    .learn-more{
+        display: flex;
+        width: 75%;
+        justify-content: space-between;
+        background: #F6F6F9;
+        height: 56px;
+        padding: 5px 25px;
+        align-items: center;
+        
+
+    }
+    .learn-more h5{
+        text-align: center;
+      
+    }
+
+    /*lemon template*/
+
+    .lemon-template{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 70px;
+        padding: 80px ;
+    }
+     
+    .lemon-text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .top{
+        display: flex;
+        gap:100px;
+       
+    }
+
+    .lemon-template h4{
+        font-size: 45px;
+        letter-spacing: 3px;
+    }
+
+    .lemon-template h6{
+        font-size: 16px;
+        letter-spacing: 3px;
+    }
+
+
+    .pages{
+        display: flex;
+        flex-direction: column;
+        height: 514px;
+        background: #2A514C;
+        width: 85%;
+        align-self: center;
+        margin-bottom: 50px;
+        justify-content: space-between;
+        
+    }
+     .pages-top{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 3px 50px 70px ;
+        border-bottom: 1px solid #979797;
+     }
+     .social{
+        display: flex;
+        gap: 10px;
+
+     }
+
+     .linkedin, .twitter , .instagram{
+        padding:8px 10px;
+        border: 1px solid #EBFA9E;
+     }
+
+     .pages-middle{
+        display: flex;
+        gap: 100px;
+        border-bottom: 1px solid #979797;
+
+     }
+
+     .pages1{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        padding: 20px 50px 20px 0;
+        align-self: center;
+       
+     }
+
+     .pages-bottom{
+        display: flex;
+        padding-bottom: 10px;
+     }
